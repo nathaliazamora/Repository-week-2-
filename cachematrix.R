@@ -7,7 +7,7 @@
 # Thevector a special matrix object that can cache its inverse.
 
 Thevector<- function(z = numeric()) {
-  m <- NULL
+  zinverse<- NULL
   set <- function(y) {
   z <<- y
   zinverse <<- NULL }
